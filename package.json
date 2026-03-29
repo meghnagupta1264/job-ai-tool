@@ -1,0 +1,26 @@
+{
+  "name": "job-ai-tool",
+  "version": "1.0.0",
+  "description": "Paste a job description + upload your CV → get a tailored cover letter or cold email in seconds.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghnagupta1264/job-ai-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meghnagupta1264/job-ai-tool/issues"
+  },
+  "homepage": "https://github.com/meghnagupta1264/job-ai-tool#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
