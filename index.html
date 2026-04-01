@@ -380,7 +380,7 @@ Output ONLY the final text — no explanations or meta-commentary.`;
     : [{ role: 'user', content: userPrompt }];
 
   try {
-    const response = await fetch('/api/generate', {
+    const response = await fetch('https://job-ai-tool.onrender.com/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
