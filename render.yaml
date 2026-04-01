@@ -1,0 +1,9 @@
+services:
+  - type: web   # it's a web server
+    name: job-ai-tool
+    runtime: node   # use Node.js
+    buildCommand: npm install   # install dependencies first
+    startCommand: node server.js    # then run this command
+    envVars:
+      - key: ANTHROPIC_API_KEY    # expect this secret variable
+        sync: false
